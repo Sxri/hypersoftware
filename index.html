@@ -19,13 +19,12 @@
     <meta content="#fffcad" data-react-helmet="true" name="theme-color" />
     
     <style>
-      .holderex {
+  .holderex {
         z-index: 1;
-        display:flex;
-        justify-content:center;
-    align-items:center;
-    display:-webkit-flex;
-        position:absolute;
+        justify-content: center;
+    align-items: center;
+    display: -webkit-flex;
+        position: absolute;
         left: 50%;
         top: 50%;
         text-align: center;
@@ -33,9 +32,9 @@
        
             border: 1px solid black;
             width: 900px;
-            height: 480px;        
-            /* This set radius to all 4 corners */  
-            border-radius: 10px; 
+            height: 480px;
+       
+            border-radius: 10px;
         font-size: 30px;
         color: black;
         background-color: #424700;
@@ -46,32 +45,30 @@
       
       .usbox {
         overflow: visible;
-        positon: relative;
-        justify-content:center;
-    align-items:center;
-        margin:auto;
-      display:flex;
-    display:-webkit-flex;
-    margin:1.5%;
-        align: center;
+        position: relative;
+        justify-content: center;
+    align-items: center;
+      display: flex;
+    display: -webkit-flex;
+    margin: 1.5%;
+       
      
        
             border: 1px solid black;
             width: 250px;
-            height: 400px;        
-            /* This set radius to all 4 corners */  
-            border-radius: 10px; 
+            height: 400px;
+            border-radius: 10px;
         font-size: 30px;
         color: black;
         background-color: #424700;
         box-shadow: 0 0 8px #000;
       }
       
-      .header1 {
+         .header1 {
         
-        position: absolute; 
+        position: absolute;
 margin: -100px;
-         z-index:99999;
+         z-index: 99999;
         color: white;
         text-align: center;
       }
@@ -105,7 +102,33 @@ margin: -100px;
 <style>
 
 
-  
+  body {
+
+
+    background: linear-gradient(270deg, #000000, #424700);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 
 
   
