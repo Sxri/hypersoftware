@@ -7,15 +7,21 @@
     background-color: #080808;
 }
 
+content {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+
 h1 {
     text-align: center;
     font-size: 95px;
-    color: #fff;
+    color: #fbffc4;
     transition: 0.3s;
     margin-bottom: 50px;
 }
 
 h1:hover {
-    color: #fbffc4;
+    color: #fff;
     margin-bottom: 53px;
 }
