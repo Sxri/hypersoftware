@@ -32,6 +32,19 @@ h1:hover {
     color: #fff;
 }
 
+h2 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #fbffc4;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+h2:hover {
+  color: #fff;
+}
+
 .navbar {
     position: fixed;
     top: 0;
