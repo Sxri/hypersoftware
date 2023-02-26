@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 * {
+    -webkit-user-select: none;  /* for Safari */
+    -moz-user-select: none;     /* for Firefox */
+    -ms-user-select: none;      /* for Internet Explorer */
+    user-select: none;          /* for modern browsers */
+
     display: grid;
     font-family: 'Poppins', sans-serif;
     background-color: #080808;
