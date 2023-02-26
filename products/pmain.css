@@ -80,7 +80,7 @@ h1:hover {
     color: #6900d1;
   }
 
-  cardholder {
+  .cardholder {
     justify-content: center;
     align-items: center;
     text-align: center;
