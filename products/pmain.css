@@ -81,7 +81,6 @@ h1:hover {
   }
 
   .card {
-    display: inline-block;
     width: 320px;
     height: 160px;
     border-radius: 10px;
