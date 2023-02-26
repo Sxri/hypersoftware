@@ -23,7 +23,9 @@ content a {
     padding: 15px 25px;
     border-radius: 10px;
     transition: 0.3s;
+    display:flex;
     text-align: center;
+    align-items:center;
 }
 
 
