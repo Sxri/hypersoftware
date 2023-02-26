@@ -33,6 +33,7 @@ content a:hover{
 }
 
 h1 {
+    padding-top: 50px;
     text-align: center;
     font-size: 95px;
     color: #fbffc4;
@@ -50,6 +51,7 @@ h2 {
   font-size: 50px;
   color: #fbffc4;
   transition: 0.3s;
+  background-color: transparent;
 }
 
 h2:hover {
