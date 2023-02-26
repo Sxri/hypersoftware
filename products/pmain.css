@@ -80,6 +80,10 @@ h1:hover {
     color: #6900d1;
   }
 
+  cardholder {
+    justify-content: center;
+  }
+
   .card {
     width: 320px;
     height: 160px;
