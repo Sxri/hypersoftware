@@ -7,26 +7,19 @@
         <link rel="stylesheet" type="text/css" href="main.css" >
     </head>
     <body>
-      <nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#">Your Logo</a>
-            </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+        <header class="navbar">
+            <div class="containerz">
+              <a href="#" class="logo">Hyper Cheats</a>
+              <nav>
+                <ul>
+                  <li><a href="/index.html">Home</a></li>
+                  <li><a href="/products">Products</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/discord">Discord</a></li>
                 </ul>
+              </nav>
             </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-    </nav>
+          </header>
 
         <content>
             <br><br><br>
@@ -38,18 +31,4 @@
             <a href="/discord">Our Discord</a>
         </content>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-    </script>
 </html>
