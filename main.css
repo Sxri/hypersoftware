@@ -27,9 +27,9 @@ content a {
 }
 
 
-.content a:hover{
-  background-color: #fff;
-  color: #000;
+content a:hover{
+  border-radius: 15px;
+  font-size: 28px;
 }
 
 h1 {
