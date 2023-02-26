@@ -1,0 +1,97 @@
+* {
+    -webkit-user-select: none;  /* for Safari */
+    -moz-user-select: none;     /* for Firefox */
+    -ms-user-select: none;      /* for Internet Explorer */
+    user-select: none;          /* for modern browsers */
+
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    background-color: #080808;
+}
+
+content {
+    justify-content: center;
+}
+
+content a {
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fbffc4;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+    align-items:center;
+    column-gap: 50px;
+}
+
+
+content a:hover{
+  border-radius: 15px;
+  font-size: 28px;
+}
+
+h1 {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 95px;
+    color: #fbffc4;
+    transition: 0.3s;
+    line-height: 1rem;
+    margin: 0;
+}
+
+h1:hover {
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 999;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  .navbar.sticky {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+  }
+  
+  .containerz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #6900d1;
+  }
