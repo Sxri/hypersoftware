@@ -25,6 +25,7 @@ h1 {
     transition: 0.3s;
     line-height: 1rem;
     margin: 0;
+    word-wrap: normal;
 }
 
 h1:hover {
