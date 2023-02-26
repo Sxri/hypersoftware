@@ -43,6 +43,17 @@ h1:hover {
     color: #fff;
 }
 
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #fbffc4;
+  transition: 0.3s;
+}
+
+h2:hover {
+  color: #fff;
+}
+
 .navbar {
     position: fixed;
     top: 0;
