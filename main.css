@@ -9,8 +9,9 @@
 
 h1 {
     text-align: center;
+    font-size: 95px;
     color: #fff;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 h1:hover {
