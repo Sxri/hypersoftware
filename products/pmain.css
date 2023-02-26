@@ -86,6 +86,7 @@ h1:hover {
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s ease;
+    display: flexbox;
   }
   
   .card:hover {
