@@ -25,6 +25,9 @@ content a {
     transition: 0.3s;
     text-align: center;
     align-items:center;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
 }
 
 
