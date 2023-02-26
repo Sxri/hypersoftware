@@ -13,7 +13,6 @@
 
 content {
     justify-content: center;
-    column-gap: 50px;
 }
 
 content a {
@@ -26,6 +25,7 @@ content a {
     transition: 0.3s;
     text-align: center;
     align-items:center;
+    column-gap: 50px;
 }
 
 
