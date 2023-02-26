@@ -17,6 +17,7 @@ content {
 
 
 h1 {
+     z-index: 998;
     padding-top: 80px;
     text-align: center;
     font-size: 95px;
