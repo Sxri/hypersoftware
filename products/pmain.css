@@ -15,24 +15,6 @@ content {
     justify-content: center;
 }
 
-content a {
-    font-size: 23px;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid #fbffc4;
-    padding: 15px 25px;
-    border-radius: 10px;
-    transition: 0.3s;
-    text-align: center;
-    align-items:center;
-    column-gap: 50px;
-}
-
-
-content a:hover{
-  border-radius: 15px;
-  font-size: 28px;
-}
 
 h1 {
     padding-top: 80px;
