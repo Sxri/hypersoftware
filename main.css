@@ -37,7 +37,8 @@ h1 {
     font-size: 95px;
     color: #fbffc4;
     transition: 0.3s;
-    line-height: 1;
+    line-height: .3958333333rem;
+    margin: 0;
 }
 
 h1:hover {
@@ -49,7 +50,8 @@ h2 {
   font-size: 50px;
   color: #fbffc4;
   transition: 0.3s;
-  line-height: 1;
+  line-height: .3958333333rem;
+  margin: 0;
 }
 
 h2:hover {
