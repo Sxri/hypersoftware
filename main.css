@@ -50,8 +50,6 @@ h2 {
   font-size: 50px;
   color: #fbffc4;
   transition: 0.3s;
-  line-height: .5rem;
-  margin: 0;
 }
 
 h2:hover {
