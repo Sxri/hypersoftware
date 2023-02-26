@@ -48,6 +48,7 @@ h2 {
   font-size: 50px;
   color: #fbffc4;
   transition: 0.3s;
+  position: absolute;
 }
 
 h2:hover {
