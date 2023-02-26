@@ -13,8 +13,6 @@
 
 content {
     justify-content: center;
-    grid-auto-flow: column;
-    column-gap: 50px;
 }
 
 content a {
