@@ -140,12 +140,13 @@ h2:hover {
 
   .cardholder {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    line-height: 5px;
   }
 
   .card {
