@@ -6,7 +6,7 @@
     -ms-user-select: none;      /* for Internet Explorer */
     user-select: none;          /* for modern browsers */
 
-    display: flex;
+    display: grid;
     font-family: 'Poppins', sans-serif;
     background-color: #080808;
 }
@@ -139,8 +139,10 @@ h2:hover {
   }
 
   .cardholder {
-    position: relative;
-    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
