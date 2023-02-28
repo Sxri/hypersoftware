@@ -140,7 +140,7 @@ h2:hover {
 
   .cardholder {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
