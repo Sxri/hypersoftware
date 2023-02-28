@@ -147,6 +147,8 @@ h2:hover {
     align-items: center;
     text-align: center;
     gap: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
   }
 
   .card {
