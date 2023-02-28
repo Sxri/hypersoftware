@@ -148,6 +148,7 @@ h2:hover {
     text-align: center;
     gap: 10px;
     row-gap: 10px;
+    columns: 2;
     column-gap: 10px;
   }
 
