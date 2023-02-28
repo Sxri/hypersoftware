@@ -146,7 +146,7 @@ h2:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    line-height: 5px;
+    gap: 10px;
   }
 
   .card {
